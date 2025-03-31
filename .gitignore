@@ -72,3 +72,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/MMData.meta
+Assets/MMData/MMAchievements.meta
+Assets/MMData/MMAchievements/AchievementsList.achievements
+/Assets/MMData/MMAchievements
