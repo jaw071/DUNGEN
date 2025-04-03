@@ -413,7 +413,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &95931344745401966
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -427,6 +427,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1811,6 +1812,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 1
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!114 &114951465582278082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2592,6 +2596,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 1
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!114 &114768438033713412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4212,7 +4219,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &95484615133445260
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4226,6 +4233,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -5296,6 +5304,9 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     Initialized: 0
+    ConditionPropertyName: 
+    EnumConditionPropertyName: 
+    EnumConditions: 0000000000000000000000000000000000000000000000000000000000000000
   FlashOutTween:
     MMTweenDefinitionType: 0
     MMTweenCurve: 0
@@ -5324,6 +5335,9 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     Initialized: 0
+    ConditionPropertyName: 
+    EnumConditionPropertyName: 
+    EnumConditions: 0000000000000000000000000000000000000000000000000000000000000000
   DebugSettings:
     ChannelMode: 0
     Channel: 0
@@ -5558,6 +5572,9 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     Initialized: 0
+    ConditionPropertyName: 
+    EnumConditionPropertyName: 
+    EnumConditions: 0000000000000000000000000000000000000000000000000000000000000000
   IgnoreTimescale: 1
   CanFadeToCurrentAlpha: 1
   ShouldBlockRaycasts: 0
@@ -5978,6 +5995,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 0
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!1 &1414837546890554
 GameObject:
   m_ObjectHideFlags: 0
@@ -6656,6 +6676,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 0
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!1 &1439208135440082
 GameObject:
   m_ObjectHideFlags: 0
@@ -7130,7 +7153,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &95234133014794780
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7144,6 +7167,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -8246,6 +8270,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 1
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!114 &114196210628897208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8422,7 +8449,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &95542506413864600
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8436,6 +8463,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -8623,6 +8651,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 1
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!114 &114382213525902344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9591,6 +9622,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 0
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!1 &1684374078992822
 GameObject:
   m_ObjectHideFlags: 0
@@ -9919,7 +9953,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &95536251751725282
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9933,6 +9967,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -10285,6 +10320,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 0
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!1 &1710561737282830
 GameObject:
   m_ObjectHideFlags: 0
@@ -10652,7 +10690,6 @@ MonoBehaviour:
   DelayedBarDecreasingProgress: 0
   AmmoDisplayID: 0
   TextDisplay: {fileID: 114155096135228100}
-  TextDisplayTextMeshPro: {fileID: 0}
 --- !u!1 &1716841589390248
 GameObject:
   m_ObjectHideFlags: 0
@@ -10818,6 +10855,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -11291,6 +11329,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -11777,6 +11816,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 1
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!114 &114801471970405178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12068,7 +12110,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!95 &95743702988591462
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -12082,6 +12124,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -12268,6 +12311,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 0
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!1 &1820260243522772
 GameObject:
   m_ObjectHideFlags: 0
@@ -12308,7 +12354,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &95524685155091422
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -12322,6 +12368,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -12563,6 +12610,7 @@ MonoBehaviour:
   HideMobileControlsInEditor: 0
   MovementControl: 0
   ForceDesktopIfPrimaryAxisActive: 0
+  DelayedButtonPresses: 0
   AutoRevertToMobileIfPrimaryAxisInactive: 0
   AutoRevertToMobileIfPrimaryAxisInactiveDuration: 10
   SmoothMovement: 1
@@ -13934,7 +13982,7 @@ MonoBehaviour:
     m_Value: 0
   OutputChannel: 1
   StandbyUpdate: 2
-  m_StreamingVersion: 20230301
+  m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
     TrackingTarget: {fileID: 0}
@@ -14060,6 +14108,7 @@ MonoBehaviour:
   OversizeWindow:
     Enabled: 0
     MaxWindowSize: 0
+    Padding: 0
   m_LegacyMaxWindowSize: -2
 --- !u!1 &1987745520602468
 GameObject:
@@ -14310,6 +14359,9 @@ MonoBehaviour:
   DisabledAnimationParameterName: Disabled
   PressedAnimationParameterName: Pressed
   MouseMode: 1
+  PreventLeftClick: 0
+  PreventMiddleClick: 1
+  PreventRightClick: 1
 --- !u!114 &114932656977705510
 MonoBehaviour:
   m_ObjectHideFlags: 0
