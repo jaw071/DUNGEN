@@ -2151,7 +2151,7 @@ MonoBehaviour:
   - {fileID: 0}
   InventoryType: 1
   TargetTransform: {fileID: 0}
-  Persistent: 1
+  Persistent: 0
   ResetThisInventorySaveOnStart: 0
   DrawContentInInspector: 1
 --- !u!4 &325834762 stripped
@@ -13550,7 +13550,7 @@ PrefabInstance:
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: orthographic size
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -14306,6 +14306,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586796948456819137, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: Lens.OrthographicSize
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4922894202913508045, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
