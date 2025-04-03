@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/TopDownEngine/Demos/Grasslands/Grasslands.unity
     guid: 9cd50f8579a65684ebaac5e7cb00ecd3
   - enabled: 1
-    path: Assets/TopDownEngine/Demos/Minimal2D/MinimalScene2D.unity
+    path: Assets/Scenes/MinimalScene2D.unity
     guid: 55ddb45e2869f6e488e05e2d4e442e06
   - enabled: 1
     path: Assets/TopDownEngine/Demos/Minimal2D/Minimal2DCharacterSwap.unity
@@ -138,3 +138,4 @@ EditorBuildSettings:
     path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Demos/MMSceneLoading/MMSceneLoadingDemoSceneB.unity
     guid: 352d34cac2435634fb99618d19a3929c
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
