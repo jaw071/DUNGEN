@@ -9743,7 +9743,7 @@ GameObject:
   - component: {fileID: 212479530728563738}
   - component: {fileID: 95179347267985190}
   m_Layer: 10
-  m_Name: ApprenticeModel
+  m_Name: KoalaModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9872,7 +9872,7 @@ GameObject:
   - component: {fileID: 114171358364461030}
   - component: {fileID: 114499223069276626}
   m_Layer: 10
-  m_Name: ApprenticeBasePrefab
+  m_Name: ApprenticeCharacterPrefab
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
