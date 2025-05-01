@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5e01d37e5a85b8f4baaf4a393ac85462
+guid: 87f7ff4684912c445a6ee4a2c0ae8257
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Knife_Idle_0
+      name: Knife_Idle_New_0
       rect:
         serializedVersion: 2
         x: 0
@@ -112,14 +112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40a4f20511c36d54b88fb03babf4071e
-      internalID: 1982874712
+      spriteID: 21246d9b4c399194f87d1cd56026ab65
+      internalID: -1537709949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knife_Idle_1
+      name: Knife_Idle_New_1
       rect:
         serializedVersion: 2
         x: 50
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5995fbb1b403dd4faeec01d2226c3e9
-      internalID: 1267801735
+      spriteID: c5123e81f0810a240819ff731a7c01c1
+      internalID: 352280506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knife_Idle_2
+      name: Knife_Idle_New_2
       rect:
         serializedVersion: 2
         x: 100
@@ -156,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9177c317a21f6084eae057b412b24df2
-      internalID: 1319537416
+      spriteID: 63330b58686267e47ab21df2f71ae1cf
+      internalID: -79222644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knife_Idle_3
+      name: Knife_Idle_New_3
       rect:
         serializedVersion: 2
         x: 150
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57d6661500b9b9846ba1d43cbcba379a
-      internalID: -363007420
+      spriteID: 7efc8544c5cb8eb469c36a72acf9e1e6
+      internalID: -436716029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knife_Idle_4
+      name: Knife_Idle_New_4
       rect:
         serializedVersion: 2
         x: 200
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb14d8789093d454cb1d8828344bf710
-      internalID: 1171523098
+      spriteID: 0a378c6ad0fb7f94397c9e127fd6916c
+      internalID: -402589595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knife_Idle_5
+      name: Knife_Idle_New_5
       rect:
         serializedVersion: 2
         x: 250
@@ -222,8 +222,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c95e3ee72054e7849a2f773a71231e21
-      internalID: -733623260
+      spriteID: 264365f76a1f27546822d0aecb5fc094
+      internalID: -1746501986
       vertices: []
       indices: 
       edges: []
@@ -232,7 +232,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7ed3fac109223dc43be62085c3354b96
+    spriteID: 73024cc01e052744fbdabbe9098461c3
     internalID: 0
     vertices: []
     indices: 
@@ -242,12 +242,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Knife_Idle_0: 1982874712
-      Knife_Idle_1: 1267801735
-      Knife_Idle_2: 1319537416
-      Knife_Idle_3: -363007420
-      Knife_Idle_4: 1171523098
-      Knife_Idle_5: -733623260
+      Knife_Idle_New_0: -1537709949
+      Knife_Idle_New_1: 352280506
+      Knife_Idle_New_2: -79222644
+      Knife_Idle_New_3: -436716029
+      Knife_Idle_New_4: -402589595
+      Knife_Idle_New_5: -1746501986
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
