@@ -1,27 +1,9 @@
 fileFormatVersion: 2
-guid: 63bbc3a420e7c1749af6342fd3dd09b8
+guid: 87f7ff4684912c445a6ee4a2c0ae8257
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: Koala_SwordIdle_512_0
-  - first:
-      213: 21300002
-    second: Koala_SwordIdle_512_1
-  - first:
-      213: 21300004
-    second: Koala_SwordIdle_512_2
-  - first:
-      213: 21300006
-    second: Koala_SwordIdle_512_3
-  - first:
-      213: 21300008
-    second: Koala_SwordIdle_512_4
-  - first:
-      213: 21300010
-    second: Koala_SwordIdle_512_5
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -52,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,217 +63,193 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 512
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 512
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Koala_SwordIdle_512_0
+      name: Knife_Idle_New_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
-        width: 128
-        height: 128
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32c1f4892cb4a544689e55b7b2caf4cf
-      internalID: 21300000
+      spriteID: 21246d9b4c399194f87d1cd56026ab65
+      internalID: -1537709949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Koala_SwordIdle_512_1
+      name: Knife_Idle_New_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
-        width: 128
-        height: 128
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51e547f1dfc76b94b808c0cb2816aca9
-      internalID: 21300002
+      spriteID: c5123e81f0810a240819ff731a7c01c1
+      internalID: 352280506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Koala_SwordIdle_512_2
+      name: Knife_Idle_New_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
-        width: 128
-        height: 128
+        x: 100
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb43dc1667c16c6428b0c013b749f58b
-      internalID: 21300004
+      spriteID: 63330b58686267e47ab21df2f71ae1cf
+      internalID: -79222644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Koala_SwordIdle_512_3
+      name: Knife_Idle_New_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 128
-        height: 128
+        x: 150
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75fc63b687aec6047a384791209a9273
-      internalID: 21300006
+      spriteID: 7efc8544c5cb8eb469c36a72acf9e1e6
+      internalID: -436716029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Koala_SwordIdle_512_4
+      name: Knife_Idle_New_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
-        width: 128
-        height: 128
+        x: 200
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00640f867d82a904891c4fca4c45a60e
-      internalID: 21300008
+      spriteID: 0a378c6ad0fb7f94397c9e127fd6916c
+      internalID: -402589595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Koala_SwordIdle_512_5
+      name: Knife_Idle_New_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 128
-        height: 128
+        x: 250
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dedb5d5b0c4a894382a8b3ca13aaf2f
-      internalID: 21300010
+      spriteID: 264365f76a1f27546822d0aecb5fc094
+      internalID: -1746501986
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: d2bde3a6362852d46ad5d7d4c6be6d4e
+    spriteID: 73024cc01e052744fbdabbe9098461c3
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      Koala_SwordIdle_512_0: 21300000
-      Koala_SwordIdle_512_1: 21300002
-      Koala_SwordIdle_512_2: 21300004
-      Koala_SwordIdle_512_3: 21300006
-      Koala_SwordIdle_512_4: 21300008
-      Koala_SwordIdle_512_5: 21300010
+      Knife_Idle_New_0: -1537709949
+      Knife_Idle_New_1: 352280506
+      Knife_Idle_New_2: -79222644
+      Knife_Idle_New_3: -436716029
+      Knife_Idle_New_4: -402589595
+      Knife_Idle_New_5: -1746501986
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 89636
-  packageName: TopDown Engine
-  packageVersion: 4.3
-  assetPath: Assets/TopDownEngine/Demos/Koala2D/Sprites/Koala/KoalaSwordIdle.png
-  uploadId: 719333
