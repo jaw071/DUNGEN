@@ -6,7 +6,7 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NinjaOverride
+  m_Name: BurkenOveride
   m_Controller: {fileID: 9100000, guid: 91b83942a92301949b1e0d318f032906, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 7c6d0b4a79202454682df6c718e788a8, type: 2}
@@ -16,7 +16,7 @@ AnimatorOverrideController:
   - m_OriginalClip: {fileID: 7400000, guid: 9012d6761dcda2745b6df35fc9a9ef9e, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 524011e44f596b747867cdd233cbbfe8, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 7ef0b26bdfb511144b3554be7ad42f4f, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 3e97c4662ef31ba408444fa2c24d675b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 61ebe5202507b564e950586c14e3461a, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 86652de73d0844e44ace0ad75dc8f25c, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 3e142754bbd7d89479996590ca6f6355, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: ac9afab0a7b9c0842a773d1edd9e2de6, type: 2}
