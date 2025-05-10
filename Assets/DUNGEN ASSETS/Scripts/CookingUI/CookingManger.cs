@@ -16,6 +16,11 @@ public class CookingManger : MonoBehaviour
     public Item[] recipeResults;
     public Slot resultSlot;
 
+    [Header("Assign the tutorial panel UI GameObject")]
+    public GameObject HelpPanel;
+
+    private bool isVisible = false;
+
     //Puts the food into the slot the player placed them
     private void Update()
     {
@@ -51,8 +56,27 @@ public class CookingManger : MonoBehaviour
         }
     }
 
-    //Checks to see if the player has completed a recipe
-    void CheckForCreatedRecipes()
+
+    // Call this from your button OnClick event
+    public void ToggleTutorial()
+    {
+        isVisible = !isVisible;
+        HelpPanel.SetActive(isVisible);
+    }
+
+    // Optional: Start with the panel hidden
+    private void Start()
+    {
+        if (HelpPanel != null)
+        {
+            HelpPanel.SetActive(false);
+            isVisible = false;
+        }
+    }
+
+
+        //Checks to see if the player has completed a recipe
+        void CheckForCreatedRecipes()
     {
         resultSlot.gameObject.SetActive(false);
         resultSlot.item = null;
