@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 87f7ff4684912c445a6ee4a2c0ae8257
+guid: 7f339d6edf0428f4f814e6aecaf1bc41
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Knife_Idle_New_0
+      name: Idleburken_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 50
-        height: 50
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21246d9b4c399194f87d1cd56026ab65
-      internalID: -1537709949
+      spriteID: 8860ee09370290e4e8907aec86afec1e
+      internalID: 1254331253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knife_Idle_New_1
+      name: Idleburken_1
       rect:
         serializedVersion: 2
-        x: 50
+        x: 96
         y: 0
-        width: 50
-        height: 50
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5123e81f0810a240819ff731a7c01c1
-      internalID: 352280506
+      spriteID: b40e22d929584dd488ef0bcfc4d5e37a
+      internalID: 1693264305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knife_Idle_New_2
+      name: Idleburken_2
       rect:
         serializedVersion: 2
-        x: 100
+        x: 192
         y: 0
-        width: 50
-        height: 50
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63330b58686267e47ab21df2f71ae1cf
-      internalID: -79222644
+      spriteID: 4498188fbabb59d479efcc9a1c89966a
+      internalID: -1660549707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knife_Idle_New_3
+      name: Idleburken_3
       rect:
         serializedVersion: 2
-        x: 150
+        x: 288
         y: 0
-        width: 50
-        height: 50
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7efc8544c5cb8eb469c36a72acf9e1e6
-      internalID: -436716029
+      spriteID: 9b9b4b073f6c60e45af3c620aa715d45
+      internalID: -419751339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knife_Idle_New_4
+      name: Idleburken_4
       rect:
         serializedVersion: 2
-        x: 200
+        x: 384
         y: 0
-        width: 50
-        height: 50
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a378c6ad0fb7f94397c9e127fd6916c
-      internalID: -402589595
+      spriteID: 0123f2b123f85b34ab5f985397984a34
+      internalID: -1451795783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knife_Idle_New_5
+      name: Idleburken_5
       rect:
         serializedVersion: 2
-        x: 250
+        x: 480
         y: 0
-        width: 50
-        height: 50
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,8 +222,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 264365f76a1f27546822d0aecb5fc094
-      internalID: -1746501986
+      spriteID: 9cee4e92bb8f5bf4b91812e37b1b0c3b
+      internalID: 476369278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idleburken_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f907140e3b392d74eb3afaf1c8ffed32
+      internalID: 1234011146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idleburken_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46d2aa2c893f754b8e3195d96a370b3
+      internalID: 1326370507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idleburken_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2a3e9ef70b80c44bb6127d51a6d296
+      internalID: 488929991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idleburken_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31cf4b95a8b4484e87f775238057712
+      internalID: -289109214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idleburken_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95ba4164859e9a438fabbcfe6bbb09b
+      internalID: -1778804063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idleburken_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f4e8de3873dd04d8258995fc4e1eeb
+      internalID: -232326881
       vertices: []
       indices: 
       edges: []
@@ -232,7 +364,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 73024cc01e052744fbdabbe9098461c3
+    spriteID: 234832d18428d6140a9ae682aeb999fd
     internalID: 0
     vertices: []
     indices: 
@@ -242,12 +374,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Knife_Idle_New_0: -1537709949
-      Knife_Idle_New_1: 352280506
-      Knife_Idle_New_2: -79222644
-      Knife_Idle_New_3: -436716029
-      Knife_Idle_New_4: -402589595
-      Knife_Idle_New_5: -1746501986
+      Idleburken_0: 1254331253
+      Idleburken_1: 1693264305
+      Idleburken_10: -1778804063
+      Idleburken_11: -232326881
+      Idleburken_2: -1660549707
+      Idleburken_3: -419751339
+      Idleburken_4: -1451795783
+      Idleburken_5: 476369278
+      Idleburken_6: 1234011146
+      Idleburken_7: 1326370507
+      Idleburken_8: 488929991
+      Idleburken_9: -289109214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
