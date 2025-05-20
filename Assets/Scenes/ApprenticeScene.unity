@@ -2238,7 +2238,12 @@ PrefabInstance:
     - target: {fileID: 114770430199677850, guid: 3d2a551cb5b32194898fd8fb30716e53,
         type: 3}
       propertyPath: DestroyOnDeath
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114770430199677850, guid: 3d2a551cb5b32194898fd8fb30716e53,
+        type: 3}
+      propertyPath: DelayBeforeDestruction
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45396,7 +45401,7 @@ MonoBehaviour:
   PoolSize: 20
   MutualizedPoolName: 
   CanSpawn: 1
-  Delay: 1
+  Delay: 0.8
   Quantity: {x: 1, y: 1}
   SpawnProperties:
     Shape: 0
@@ -45447,9 +45452,9 @@ MonoBehaviour:
   DimensionMode: 0
   AvoidObstaclesLayerMask:
     serializedVersion: 2
-    m_Bits: 271616
-  AvoidRadius: 0.25
-  MaxAvoidAttempts: 5
+    m_Bits: 273664
+  AvoidRadius: 0.2
+  MaxAvoidAttempts: 10
   LootFeedback: {fileID: 0}
   DrawGizmos: 0
   GizmosQuantity: 1000
