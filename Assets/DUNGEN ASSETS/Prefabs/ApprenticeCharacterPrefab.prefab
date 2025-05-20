@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1142519838877934}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.012, y: -0.317, z: 0}
+  m_LocalPosition: {x: -0.012, y: -0.681, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4904,7 +4904,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2386, y: 1.2386, z: 1.2386}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4105561756980196}
@@ -9812,7 +9812,7 @@ SpriteRenderer:
   m_SortingLayerID: 47421343
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: dc570d0b68875aa468baed8b33c5965b, type: 3}
+  m_Sprite: {fileID: 1221595902, guid: 413d479346ae2134395cc79644f15571, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10157,7 +10157,7 @@ MonoBehaviour:
   DashMode: 1
   DashSpace: 0
   DashDirection: {x: 1, y: 0, z: 0}
-  DashDistance: 6
+  DashDistance: 3
   DashDuration: 0.2
   DashCurve:
     serializedVersion: 2
@@ -10187,7 +10187,7 @@ MonoBehaviour:
     Unlimited: 0
     ConsumptionDuration: 0.2
     PauseOnEmptyDuration: 0.1
-    RefillDuration: 0.5
+    RefillDuration: 1
     CanInterruptRefill: 0
     CooldownState: 0
     CurrentDurationLeft: 0
@@ -15531,7 +15531,7 @@ Transform:
   m_GameObject: {fileID: 1865617948810876}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1830001, y: -0.3099999, z: 0}
+  m_LocalPosition: {x: -0.449, y: -0.3099999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16075,7 +16075,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -771298436
         Label: Camera Shake
-        OriginalLabel: 
+        OriginalLabel: Camera Shake
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -16158,7 +16158,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -1787741816
         Label: Chromatic Aberration
-        OriginalLabel: 
+        OriginalLabel: Chromatic Aberration
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -16272,7 +16272,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 1273552745
         Label: Particles
-        OriginalLabel: 
+        OriginalLabel: Particles Play
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -16358,7 +16358,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 222012961
         Label: Sound
-        OriginalLabel: 
+        OriginalLabel: Sound
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -16636,7 +16636,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 2050482088
         Label: Sound
-        OriginalLabel: 
+        OriginalLabel: Sound
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -16761,7 +16761,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -1547847143
         Label: Flicker
-        OriginalLabel: 
+        OriginalLabel: Flicker
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -16845,7 +16845,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -1863536508
         Label: Flash
-        OriginalLabel: 
+        OriginalLabel: Flash
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -16924,7 +16924,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 1682299838
         Label: Camera Shake
-        OriginalLabel: 
+        OriginalLabel: Camera Shake
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -17006,7 +17006,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -1545247230
         Label: Freeze Frame
-        OriginalLabel: 
+        OriginalLabel: Freeze Frame
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -17082,7 +17082,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 406572191
         Label: Color Grading
-        OriginalLabel: 
+        OriginalLabel: Color Grading
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -17332,7 +17332,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -1996308598
         Label: TopDown Engine Floating Text
-        OriginalLabel: 
+        OriginalLabel: TopDown Engine Floating Text
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
