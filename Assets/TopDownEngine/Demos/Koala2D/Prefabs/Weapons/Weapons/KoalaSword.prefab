@@ -350,8 +350,8 @@ MonoBehaviour:
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 8448
-  MinDamageCaused: 10
-  MaxDamageCaused: 10
+  MinDamageCaused: 15
+  MaxDamageCaused: 15
   Knockback: 1
   KnockbackForce: {x: 500, y: 0, z: 0}
   KnockbackDirection: 0
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DroppableCombo: 1
-  DropComboDelay: 0.5
+  DropComboDelay: 0.2
   InputMode: 0
   ComboInProgressAnimationParameter: ComboInProgress
   Weapons: []
