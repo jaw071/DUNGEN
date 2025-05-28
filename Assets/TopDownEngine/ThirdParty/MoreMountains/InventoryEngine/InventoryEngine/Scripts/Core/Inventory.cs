@@ -23,7 +23,11 @@ namespace MoreMountains.InventoryEngine
 		/// The different possible inventory types, main are regular, equipment will have special behaviours (use them for slots where you put the equipped weapon/armor/etc).
 		public enum InventoryTypes { Main, Equipment }
 
-		[Header("Player ID")] 
+
+        public static Inventory GlobalInstance { get; private set; }
+
+
+        [Header("Player ID")] 
 		/// a unique ID used to identify the owner of this inventory
 		[Tooltip("a unique ID used to identify the owner of this inventory")]
 		public string PlayerID = "Player1";
@@ -138,7 +142,17 @@ namespace MoreMountains.InventoryEngine
 		protected virtual void Awake()
 		{
 			RegisterInventory();
-		}
+            
+			if (GlobalInstance == null)
+            {
+                GlobalInstance = this;
+                DontDestroyOnLoad(this.gameObject); // Persist across scenes
+            }
+            else
+            {
+                Destroy(gameObject); // Prevent duplicates
+            }
+        }
 
 		/// <summary>
 		/// Registers this inventory so other scripts can access it later on
