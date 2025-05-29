@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 114365482740119984}
   - component: {fileID: -4963998176149537223}
   m_Layer: 13
-  m_Name: Burken
+  m_Name: OLDBurken
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

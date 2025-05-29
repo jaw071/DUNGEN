@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4550216794149066}
   - component: {fileID: 212054338620499492}
   - component: {fileID: 95569988844767968}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Koala_Pickups_Shadow1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ Transform:
   m_GameObject: {fileID: 1136408400419902}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.75, y: -10.13, z: 0.02}
+  m_LocalPosition: {x: 40.75, y: -10.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -279,7 +279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4021539432022318}
   - component: {fileID: 95243579942162096}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 4968739561898144}
   - component: {fileID: 212519941297183702}
   - component: {fileID: 95058578725568570}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Burken_Meat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,7 +444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 793731431198832622}
   - component: {fileID: 8063560708483998443}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PickedMMFeedbacks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1063,7 +1063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5261182415094113939}
   - component: {fileID: 7887479068797439920}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LootMMFeedbacks
   m_TagString: Untagged
   m_Icon: {fileID: 0}

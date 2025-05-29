@@ -30,7 +30,7 @@ GameObject:
   - component: {fileID: 114544991609150994}
   - component: {fileID: 5296060867346013264}
   m_Layer: 13
-  m_Name: KoalaNinjaSwordMaster
+  m_Name: zOldBurken
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
