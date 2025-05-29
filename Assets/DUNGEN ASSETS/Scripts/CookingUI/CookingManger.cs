@@ -1,130 +1,137 @@
-using NUnit.Framework;
 using System.Collections.Generic;
-using UnityEditor.U2D.Aseprite;
 using UnityEngine;
 using UnityEngine.UI;
+using MoreMountains.InventoryEngine;
 
 public class CookingManger : MonoBehaviour
 {
-    private Item currentItem;
-    public Image CustomCursor;
-
     public Slot[] cookingSlot;
-
-    public List<Item> itemList;
-    public string[] recipes;
-    public Item[] recipeResults;
     public Slot resultSlot;
+    public InventoryItem[] recipeResults;
+    public string[] recipes;
 
-    [Header("Assign the tutorial panel UI GameObject")]
-    public GameObject HelpPanel;
+    public InventoryItem[] itemList;
+    public InventoryItem currentItem;
+    public Image customCursor;
 
-    private bool isVisible = false;
+    private void Awake()
+    {
+        itemList = new InventoryItem[cookingSlot.Length];
+        customCursor.gameObject.SetActive(false);
+    }
 
-    //Puts the food into the slot the player placed them
     private void Update()
     {
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && currentItem != null)
         {
-            if (currentItem != null)
+            customCursor.gameObject.SetActive(false);
+
+            Slot nearestSlot = null;
+            float closestDistance = float.MaxValue;
+
+            foreach (Slot slot in cookingSlot)
             {
-                CustomCursor.gameObject.SetActive(false);
-                Slot nearestSlot = null;
-                float shortestDistance = float.MaxValue;
-
-                //Goes through all cooking slots
-                foreach (Slot slot in cookingSlot) 
+                float distance = Vector2.Distance(Input.mousePosition, slot.transform.position);
+                if (distance < closestDistance)
                 {
-                    float dist = Vector2.Distance(Input.mousePosition, slot.transform.position);
-
-                    if (dist < shortestDistance)
-                    {
-                        shortestDistance = dist;
-                        nearestSlot = slot;
-                    }
+                    closestDistance = distance;
+                    nearestSlot = slot;
                 }
+            }
+
+            if (nearestSlot != null)
+            {
                 nearestSlot.gameObject.SetActive(true);
-                nearestSlot.GetComponent<Image>().sprite = currentItem.GetComponent<Image>().sprite;
+                nearestSlot.GetComponent<Image>().sprite = currentItem.Icon;
                 nearestSlot.item = currentItem;
                 itemList[nearestSlot.index] = currentItem;
-
-
-                currentItem = null;
-
                 CheckForCreatedRecipes();
             }
+
+            currentItem = null;
         }
-    }
 
-
-    // Call this from your button OnClick event
-    public void ToggleTutorial()
-    {
-        isVisible = !isVisible;
-        HelpPanel.SetActive(isVisible);
-    }
-
-    // Optional: Start with the panel hidden
-    private void Start()
-    {
-        if (HelpPanel != null)
+        if (currentItem != null)
         {
-            HelpPanel.SetActive(false);
-            isVisible = false;
+            customCursor.transform.position = Input.mousePosition;
         }
     }
 
-
-        //Checks to see if the player has completed a recipe
-        void CheckForCreatedRecipes()
-    {
-        resultSlot.gameObject.SetActive(false);
-        resultSlot.item = null;
-
-        string currentRecipeString = "";
-        //Forming the recipe string
-        foreach (Item item in itemList)
-        {
-            if (item != null)
-            {
-                currentRecipeString += item.itemName;
-            }
-            else
-            {
-                currentRecipeString += null;
-            }
-        }
-
-        for (int i = 0; i < recipes.Length; i++)
-        {
-            if (recipes[i] == currentRecipeString)
-            {
-                resultSlot.gameObject.SetActive(true);
-                resultSlot.GetComponent<Image>().sprite = recipeResults[i].GetComponent<Image>().sprite;
-                resultSlot.item = recipeResults[i];
-            }
-        }
-        
-    }
-
-
-    //Removes item from slot by clicking it
-    public void OnClickSlot(Slot slot)
-    {
-        slot.item = null;
-        itemList[slot.index] = null;
-        slot.gameObject.SetActive(false);
-        CheckForCreatedRecipes();
-    }
-
-
-    public void OnMouseDownItem(Item item)
+    public void OnMouseDownItem(InventoryItem item)
     {
         if (currentItem == null)
         {
             currentItem = item;
-            CustomCursor.gameObject.SetActive(true);
-            CustomCursor.sprite = currentItem.GetComponent<Image>().sprite;
+            customCursor.gameObject.SetActive(true);
+            customCursor.sprite = item.Icon;
+        }
+    }
+
+    public void OnClickSlot(Slot slot)
+    {
+        itemList[slot.index] = null;
+        slot.item = null;
+        slot.gameObject.SetActive(false);
+        CheckForCreatedRecipes();
+    }
+
+    public void CheckForCreatedRecipes()
+    {
+        // Reset result slot
+        resultSlot.gameObject.SetActive(false);
+        resultSlot.item = null;
+
+        // Build the current recipe string
+        string currentRecipeString = "";
+
+        foreach (InventoryItem item in itemList)
+        {
+            if (item != null)
+            {
+                currentRecipeString += item.ItemID;
+            }
+            else
+            {
+                currentRecipeString += "null";
+            }
+        }
+
+        Debug.Log("Current recipe: " + currentRecipeString);
+
+        // Check against known recipes
+        for (int i = 0; i < recipes.Length; i++)
+        {
+            if (recipes[i] == currentRecipeString)
+            {
+                Debug.Log("Recipe matched: " + recipes[i]);
+
+                // Show result in result slot
+                resultSlot.gameObject.SetActive(true);
+                resultSlot.GetComponent<Image>().sprite = recipeResults[i].Icon;
+                resultSlot.item = recipeResults[i];
+
+                Debug.Log("Crafted: " + recipeResults[i].ItemName + ", Icon: " + recipeResults[i].Icon);
+
+                // Add crafted item to global inventory
+                Inventory.GlobalInstance.AddItem(recipeResults[i], 1);
+
+                Debug.Log("Crafted item added to inventory: " + recipeResults[i].ItemID);
+
+                // Remove used ingredients from inventory and clear slots
+                for (int j = 0; j < itemList.Length; j++)
+                {
+                    if (itemList[j] != null)
+                    {
+                        Inventory.GlobalInstance.RemoveItemByID(itemList[j].ItemID, 1);
+                        itemList[j] = null;
+
+                        cookingSlot[j].item = null;
+                        cookingSlot[j].gameObject.SetActive(false);
+                    }
+                }
+
+                break;
+            }
         }
     }
 }
