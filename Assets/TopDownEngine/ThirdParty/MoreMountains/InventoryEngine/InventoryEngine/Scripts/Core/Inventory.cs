@@ -141,23 +141,25 @@ namespace MoreMountains.InventoryEngine
 		/// </summary>
 		protected virtual void Awake()
 		{
-			RegisterInventory();
-            
-			if (GlobalInstance == null)
+            RegisterInventory();
+
+            if (GlobalInstance == null)
             {
                 GlobalInstance = this;
-                DontDestroyOnLoad(this.gameObject); // Persist across scenes
+                DontDestroyOnLoad(this.gameObject);
             }
-            else
+            else if (GlobalInstance != this)
             {
-                Destroy(gameObject); // Prevent duplicates
+                Destroy(this.gameObject); // Prevent duplicates
             }
         }
 
-		/// <summary>
-		/// Registers this inventory so other scripts can access it later on
-		/// </summary>
-		protected virtual void RegisterInventory()
+
+
+        /// <summary>
+        /// Registers this inventory so other scripts can access it later on
+        /// </summary>
+        protected virtual void RegisterInventory()
 		{
 			if (RegisteredInventories == null)
 			{
