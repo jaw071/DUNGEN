@@ -150,7 +150,7 @@ namespace MoreMountains.InventoryEngine
             }
             else if (GlobalInstance != this)
             {
-                Destroy(this.gameObject); // Prevent duplicates
+                //Destroy(this.gameObject); // Prevent duplicates
             }
         }
 

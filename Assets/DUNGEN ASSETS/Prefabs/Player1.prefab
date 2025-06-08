@@ -17595,7 +17595,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 648103756
         Label: Sound
-        OriginalLabel: 
+        OriginalLabel: Sound
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -17720,7 +17720,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 1941414753
         Label: Color Grading
-        OriginalLabel: 
+        OriginalLabel: Color Grading
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
