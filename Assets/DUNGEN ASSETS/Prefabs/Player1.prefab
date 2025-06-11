@@ -9872,7 +9872,7 @@ GameObject:
   - component: {fileID: 114171358364461030}
   - component: {fileID: 114499223069276626}
   m_Layer: 10
-  m_Name: ApprenticeCharacterPrefab
+  m_Name: Player1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10214,7 +10214,8 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  InitialWeapon: {fileID: 0}
+  InitialWeapon: {fileID: 114594623923584052, guid: ea4d9a1282e7d5748a3393a32892ddbf,
+    type: 3}
   CanPickupWeapons: 1
   WeaponUseFeedback: {fileID: 0}
   WeaponAttachment: {fileID: 4515663194721164}
@@ -17594,7 +17595,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 648103756
         Label: Sound
-        OriginalLabel: 
+        OriginalLabel: Sound
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -17719,7 +17720,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 1941414753
         Label: Color Grading
-        OriginalLabel: 
+        OriginalLabel: Color Grading
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}

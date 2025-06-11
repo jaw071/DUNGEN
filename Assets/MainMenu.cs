@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
     // Opens ApprenticeScene
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void QuitGame() 

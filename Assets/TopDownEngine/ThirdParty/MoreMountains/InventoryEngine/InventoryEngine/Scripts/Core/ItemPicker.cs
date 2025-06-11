@@ -232,14 +232,35 @@ namespace MoreMountains.InventoryEngine
 			return true;
 		}
 
-		/// <summary>
-		/// Finds the target inventory based on its name
-		/// </summary>
-		/// <param name="targetInventoryName">Target inventory name.</param>
-		public virtual void FindTargetInventory(string targetInventoryName, string playerID = "Player1")
-		{
-			_targetInventory = null;
-			_targetInventory = Inventory.FindInventory(targetInventoryName, playerID);
-		}
-	}
+        /// <summary>
+        /// Finds the target inventory based on its name
+        /// </summary>
+        /// <param name="targetInventoryName">Target inventory name.</param>
+        public virtual void FindTargetInventory(string targetInventoryName, string playerID = "Player1")
+        {
+            // Prevent using a destroyed reference
+            _targetInventory = null;
+
+            // Loop through registered inventories and ignore destroyed ones
+            if (Inventory.RegisteredInventories != null)
+            {
+                foreach (var inventory in Inventory.RegisteredInventories)
+                {
+                    if (inventory == null) { continue; }
+                    if (!inventory.gameObject.scene.IsValid()) { continue; } // destroyed or scene unloaded
+                    if (inventory.name == targetInventoryName && inventory.PlayerID == playerID)
+                    {
+                        _targetInventory = inventory;
+                        break;
+                    }
+                }
+            }
+
+            // Optional: Log a warning if no inventory was found
+            if (_targetInventory == null)
+            {
+                Debug.LogWarning($"ItemPicker: Could not find target inventory '{targetInventoryName}' for player '{playerID}'.");
+            }
+        }
+    }
 }

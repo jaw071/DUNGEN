@@ -1,122 +1,7 @@
 fileFormatVersion: 2
-guid: f289ba8994ad88e42b73769365155321
-AssetOrigin:
-  serializedVersion: 1
-  productId: 89636
-  packageName: TopDown Engine
-  packageVersion: 4.3
-  assetPath: Assets/TopDownEngine/Demos/Koala2D/Sprites/Dungeon/KoalaDungeonGroundOrange.png
-  uploadId: 719333
+guid: 68fb7964809d5bf47b90a2192fbc452c
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: DungeonGroundOrange_0
-  - first:
-      213: 21300002
-    second: DungeonGroundOrange_1
-  - first:
-      213: 21300004
-    second: DungeonGroundOrange_2
-  - first:
-      213: 21300006
-    second: DungeonGroundOrange_3
-  - first:
-      213: 21300008
-    second: DungeonGroundOrange_4
-  - first:
-      213: 21300010
-    second: DungeonGroundOrange_5
-  - first:
-      213: 21300012
-    second: DungeonGroundOrange_6
-  - first:
-      213: 21300014
-    second: DungeonGroundOrange_7
-  - first:
-      213: 21300016
-    second: DungeonGroundOrange_8
-  - first:
-      213: 21300018
-    second: DungeonGroundOrange_9
-  - first:
-      213: 21300020
-    second: DungeonGroundOrange_10
-  - first:
-      213: 21300022
-    second: DungeonGroundOrange_11
-  - first:
-      213: 21300024
-    second: DungeonGroundOrange_12
-  - first:
-      213: 21300026
-    second: DungeonGroundOrange_13
-  - first:
-      213: 21300028
-    second: DungeonGroundOrange_14
-  - first:
-      213: 21300030
-    second: DungeonGroundOrange_15
-  - first:
-      213: 21300032
-    second: DungeonGroundOrange_16
-  - first:
-      213: 21300034
-    second: DungeonGroundOrange_17
-  - first:
-      213: 21300036
-    second: DungeonGroundOrange_18
-  - first:
-      213: 21300038
-    second: DungeonGroundOrange_19
-  - first:
-      213: 21300040
-    second: DungeonGroundOrange_20
-  - first:
-      213: 21300042
-    second: DungeonGroundOrange_21
-  - first:
-      213: 21300044
-    second: DungeonGroundOrange_22
-  - first:
-      213: 21300046
-    second: DungeonGroundOrange_23
-  - first:
-      213: 21300048
-    second: DungeonGroundOrange_24
-  - first:
-      213: 21300050
-    second: DungeonGroundOrange_25
-  - first:
-      213: 21300052
-    second: DungeonGroundOrange_26
-  - first:
-      213: 21300054
-    second: DungeonGroundOrange_27
-  - first:
-      213: 21300056
-    second: DungeonGroundOrange_28
-  - first:
-      213: 21300058
-    second: DungeonGroundOrange_29
-  - first:
-      213: 21300060
-    second: DungeonGroundOrange_30
-  - first:
-      213: 21300062
-    second: DungeonGroundOrange_31
-  - first:
-      213: 21300064
-    second: DungeonGroundOrange_32
-  - first:
-      213: 21300066
-    second: DungeonGroundOrange_33
-  - first:
-      213: 21300068
-    second: DungeonGroundOrange_34
-  - first:
-      213: 21300070
-    second: DungeonGroundOrange_35
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,67 +63,41 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DungeonGroundOrange_0
+      name: DungeonGroundGrey_0
       rect:
         serializedVersion: 2
         x: 0
@@ -246,21 +105,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2ff8be06a2b78842b5fe62ecb0bca35
-      internalID: 21300000
+      spriteID: 6ebee3863d7c6414f93d53f02e64252e
+      internalID: -2039362452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_1
+      name: DungeonGroundGrey_1
       rect:
         serializedVersion: 2
         x: 16
@@ -268,21 +127,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8617a6d4565cd4042bae225d3a0047b9
-      internalID: 21300002
+      spriteID: d3ae0bbdba6a1c24da1d0976884a9be3
+      internalID: 521599731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_2
+      name: DungeonGroundGrey_2
       rect:
         serializedVersion: 2
         x: 32
@@ -290,21 +149,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cb74562b6dbddc4f8614d3bdf2f8ad0
-      internalID: 21300004
+      spriteID: be0cd6faeacb96848ad34466d8f71664
+      internalID: -1295544660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_3
+      name: DungeonGroundGrey_3
       rect:
         serializedVersion: 2
         x: 48
@@ -312,21 +171,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 035ba824d385d33418abdbcaf9cca2bc
-      internalID: 21300006
+      spriteID: 91f940e5003c05a459a20b19ce5b4e83
+      internalID: -531242520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_4
+      name: DungeonGroundGrey_4
       rect:
         serializedVersion: 2
         x: 64
@@ -334,21 +193,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8345787ef6e34d48b9880ef68efaa8b
-      internalID: 21300008
+      spriteID: a5a6d657663c2ae45b37b233caa3e0ff
+      internalID: -1106234959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_5
+      name: DungeonGroundGrey_5
       rect:
         serializedVersion: 2
         x: 80
@@ -356,21 +215,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 106a200a221d8ce43a3a5f596c60ea3e
-      internalID: 21300010
+      spriteID: ec80f132aab573545b7df2854edce4a9
+      internalID: -1381718367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_6
+      name: DungeonGroundGrey_6
       rect:
         serializedVersion: 2
         x: 0
@@ -378,21 +237,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42168ac2a7876a74ba1a16d541743fc0
-      internalID: 21300012
+      spriteID: 01348863487b22443a2df1c7cf4c2b5c
+      internalID: -1474479417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_7
+      name: DungeonGroundGrey_7
       rect:
         serializedVersion: 2
         x: 16
@@ -400,21 +259,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f405a6748d44d9c4eb2fad515ac0251f
-      internalID: 21300014
+      spriteID: 993887d350d95c74f8b0bad0681027c2
+      internalID: 362314117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_8
+      name: DungeonGroundGrey_8
       rect:
         serializedVersion: 2
         x: 32
@@ -422,21 +281,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b6d38d7d213ecd459d4df727e68cf5d
-      internalID: 21300016
+      spriteID: f2d7914662655ef42b4536b9a5983141
+      internalID: 1793826381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_9
+      name: DungeonGroundGrey_9
       rect:
         serializedVersion: 2
         x: 48
@@ -444,21 +303,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ace656fe94be1c341b0157dd3ac8b65b
-      internalID: 21300018
+      spriteID: 6af195899e304a44281819c94616bc4e
+      internalID: 156748001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_10
+      name: DungeonGroundGrey_10
       rect:
         serializedVersion: 2
         x: 64
@@ -466,21 +325,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed414de3c2197594fbf053962f4008e0
-      internalID: 21300020
+      spriteID: 4665518d37117794abaffaa32d7ed19a
+      internalID: -1640456865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_11
+      name: DungeonGroundGrey_11
       rect:
         serializedVersion: 2
         x: 80
@@ -488,21 +347,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2709b1b0e83e0df45b128a53efb90520
-      internalID: 21300022
+      spriteID: 7af9879f77f01854ebe32fb16b654cf2
+      internalID: 9919116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_12
+      name: DungeonGroundGrey_12
       rect:
         serializedVersion: 2
         x: 0
@@ -510,21 +369,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bae5f48d4ec559c43921c16f73f1eada
-      internalID: 21300024
+      spriteID: acf5355a40bc7d34391ff614c1aad538
+      internalID: -1682603803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_13
+      name: DungeonGroundGrey_13
       rect:
         serializedVersion: 2
         x: 16
@@ -532,21 +391,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceeb355039077cb4397e64cab7dd91b7
-      internalID: 21300026
+      spriteID: d3abe21f4db5ea94cb7fc889cb4cc3c9
+      internalID: -1155546131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_14
+      name: DungeonGroundGrey_14
       rect:
         serializedVersion: 2
         x: 32
@@ -554,21 +413,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c151c85d1b246324f883ef254e186b21
-      internalID: 21300028
+      spriteID: 166570f903681e147bf0d3dec5a146c0
+      internalID: -976242838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_15
+      name: DungeonGroundGrey_15
       rect:
         serializedVersion: 2
         x: 48
@@ -576,21 +435,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35eec958a5057064dbaac85299bf2525
-      internalID: 21300030
+      spriteID: b4f6a4c15717835408a63e93dc5ce1f6
+      internalID: -262702073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_16
+      name: DungeonGroundGrey_16
       rect:
         serializedVersion: 2
         x: 64
@@ -598,21 +457,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff365ef46b8918646a0f7d22ad0beaa9
-      internalID: 21300032
+      spriteID: 85891ddbf422e484cbc59863cf9a55f0
+      internalID: -1018863625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_17
+      name: DungeonGroundGrey_17
       rect:
         serializedVersion: 2
         x: 80
@@ -620,21 +479,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fdc4281cb1de6549a823a10d6355ebc
-      internalID: 21300034
+      spriteID: 7b22e7d05a3aab64fbe96f105bed1e03
+      internalID: -790879456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_18
+      name: DungeonGroundGrey_18
       rect:
         serializedVersion: 2
         x: 0
@@ -642,21 +501,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34d76530f8ebcf84ba348459c9e2be30
-      internalID: 21300036
+      spriteID: 982ce76fe2ecb524eac3355000204f76
+      internalID: -278876803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_19
+      name: DungeonGroundGrey_19
       rect:
         serializedVersion: 2
         x: 16
@@ -664,21 +523,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31f032fe49d12ca44bef610078ba6853
-      internalID: 21300038
+      spriteID: 9e998286da8e69a4cbf8e5da4b79a5b7
+      internalID: -1094528160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_20
+      name: DungeonGroundGrey_20
       rect:
         serializedVersion: 2
         x: 32
@@ -686,21 +545,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05527adfbabb7244dbb7a21e61befb6f
-      internalID: 21300040
+      spriteID: 623b54f377f7624479764fc914a05b0d
+      internalID: -2051763221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_21
+      name: DungeonGroundGrey_21
       rect:
         serializedVersion: 2
         x: 48
@@ -708,21 +567,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d39823ad79449004c9ded3a0b632d493
-      internalID: 21300042
+      spriteID: 4a8c1b2e10c6c784dbbd952c6af42abb
+      internalID: 627958490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_22
+      name: DungeonGroundGrey_22
       rect:
         serializedVersion: 2
         x: 64
@@ -730,21 +589,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4b98b9c39620ec4987e709ff984bdca
-      internalID: 21300044
+      spriteID: 7fb2611b510b45945ac09482c97fc394
+      internalID: -1623852581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_23
+      name: DungeonGroundGrey_23
       rect:
         serializedVersion: 2
         x: 80
@@ -752,21 +611,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53c5f6fd851fbc84cbcf09f698fe315a
-      internalID: 21300046
+      spriteID: b67f7339b0d1ea84a83ed085cce1970a
+      internalID: -1512800950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_24
+      name: DungeonGroundGrey_24
       rect:
         serializedVersion: 2
         x: 0
@@ -774,21 +633,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12983e772f5521f4a9df76dcf15df861
-      internalID: 21300048
+      spriteID: fbc82914b87bc11428a9f35bbb80b074
+      internalID: 1344987305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_25
+      name: DungeonGroundGrey_25
       rect:
         serializedVersion: 2
         x: 16
@@ -796,21 +655,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 432134ff71ed52c44a1f09048aee1a6b
-      internalID: 21300050
+      spriteID: 0cf9b037369f93a4e93ce4d02ea24c4c
+      internalID: 347380455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_26
+      name: DungeonGroundGrey_26
       rect:
         serializedVersion: 2
         x: 32
@@ -818,21 +677,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2168d8ff8289b1d4bb7acb094a3112a0
-      internalID: 21300052
+      spriteID: d16dafa525f5a4b47a8c704d9ef305db
+      internalID: 2117042945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_27
+      name: DungeonGroundGrey_27
       rect:
         serializedVersion: 2
         x: 48
@@ -840,21 +699,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ccbfeef6441c904b887f5ec3c6b5183
-      internalID: 21300054
+      spriteID: 900396b8b36a04747893026318a8b1c4
+      internalID: -1512490436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_28
+      name: DungeonGroundGrey_28
       rect:
         serializedVersion: 2
         x: 64
@@ -862,21 +721,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24992cb5a8fb6f84e8991c8709bb981a
-      internalID: 21300056
+      spriteID: 754b5f50cd7ec39438ef52d612efdf38
+      internalID: 1584891913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_29
+      name: DungeonGroundGrey_29
       rect:
         serializedVersion: 2
         x: 80
@@ -884,21 +743,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28b978191619fce4db7c4aca47f53212
-      internalID: 21300058
+      spriteID: 3e8937e15f4304b4f8b4cc07c4aa7a62
+      internalID: 479552461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_30
+      name: DungeonGroundGrey_30
       rect:
         serializedVersion: 2
         x: 0
@@ -906,21 +765,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66919959599031948bef2e0ad59303df
-      internalID: 21300060
+      spriteID: 1e7b1d22ff1ce714790efa1a51c33668
+      internalID: -1280808244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_31
+      name: DungeonGroundGrey_31
       rect:
         serializedVersion: 2
         x: 16
@@ -928,21 +787,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08da5359c41b5e344ac5fd582131c108
-      internalID: 21300062
+      spriteID: de7caa2335dc908468b55d4c978b3318
+      internalID: 1212521469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_32
+      name: DungeonGroundGrey_32
       rect:
         serializedVersion: 2
         x: 32
@@ -950,21 +809,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aa4710af74818c4cbbd5185d5c5c418
-      internalID: 21300064
+      spriteID: 4a9bc008340ce1741a21a6f5bf4a74e0
+      internalID: 802456441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_33
+      name: DungeonGroundGrey_33
       rect:
         serializedVersion: 2
         x: 48
@@ -972,21 +831,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a79bea5a4c2e35a49bd952fd5105dfed
-      internalID: 21300066
+      spriteID: 317596f5504baec48a7494ddc08fa777
+      internalID: 605335286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_34
+      name: DungeonGroundGrey_34
       rect:
         serializedVersion: 2
         x: 64
@@ -994,21 +853,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b056240066c039d4b98bcd2420988cc0
-      internalID: 21300068
+      spriteID: 727800de8b0722b459c5998c35d61794
+      internalID: -1505770215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonGroundOrange_35
+      name: DungeonGroundGrey_35
       rect:
         serializedVersion: 2
         x: 80
@@ -1016,15 +875,15 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9d6d74b799641945a449ee0b68a9176
-      internalID: 21300070
+      spriteID: 9f511177ce029aa418611956c27903e5
+      internalID: 1955291016
       vertices: []
       indices: 
       edges: []
@@ -1033,7 +892,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ce7e3368d60fb954890880ef6183bb5b
+    spriteID: c03fa6d44ca2af44ca2a5716d2547c2e
     internalID: 0
     vertices: []
     indices: 
@@ -1043,42 +902,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DungeonGroundOrange_0: 21300000
-      DungeonGroundOrange_1: 21300002
-      DungeonGroundOrange_10: 21300020
-      DungeonGroundOrange_11: 21300022
-      DungeonGroundOrange_12: 21300024
-      DungeonGroundOrange_13: 21300026
-      DungeonGroundOrange_14: 21300028
-      DungeonGroundOrange_15: 21300030
-      DungeonGroundOrange_16: 21300032
-      DungeonGroundOrange_17: 21300034
-      DungeonGroundOrange_18: 21300036
-      DungeonGroundOrange_19: 21300038
-      DungeonGroundOrange_2: 21300004
-      DungeonGroundOrange_20: 21300040
-      DungeonGroundOrange_21: 21300042
-      DungeonGroundOrange_22: 21300044
-      DungeonGroundOrange_23: 21300046
-      DungeonGroundOrange_24: 21300048
-      DungeonGroundOrange_25: 21300050
-      DungeonGroundOrange_26: 21300052
-      DungeonGroundOrange_27: 21300054
-      DungeonGroundOrange_28: 21300056
-      DungeonGroundOrange_29: 21300058
-      DungeonGroundOrange_3: 21300006
-      DungeonGroundOrange_30: 21300060
-      DungeonGroundOrange_31: 21300062
-      DungeonGroundOrange_32: 21300064
-      DungeonGroundOrange_33: 21300066
-      DungeonGroundOrange_34: 21300068
-      DungeonGroundOrange_35: 21300070
-      DungeonGroundOrange_4: 21300008
-      DungeonGroundOrange_5: 21300010
-      DungeonGroundOrange_6: 21300012
-      DungeonGroundOrange_7: 21300014
-      DungeonGroundOrange_8: 21300016
-      DungeonGroundOrange_9: 21300018
+      DungeonGroundGrey_0: -2039362452
+      DungeonGroundGrey_1: 521599731
+      DungeonGroundGrey_10: -1640456865
+      DungeonGroundGrey_11: 9919116
+      DungeonGroundGrey_12: -1682603803
+      DungeonGroundGrey_13: -1155546131
+      DungeonGroundGrey_14: -976242838
+      DungeonGroundGrey_15: -262702073
+      DungeonGroundGrey_16: -1018863625
+      DungeonGroundGrey_17: -790879456
+      DungeonGroundGrey_18: -278876803
+      DungeonGroundGrey_19: -1094528160
+      DungeonGroundGrey_2: -1295544660
+      DungeonGroundGrey_20: -2051763221
+      DungeonGroundGrey_21: 627958490
+      DungeonGroundGrey_22: -1623852581
+      DungeonGroundGrey_23: -1512800950
+      DungeonGroundGrey_24: 1344987305
+      DungeonGroundGrey_25: 347380455
+      DungeonGroundGrey_26: 2117042945
+      DungeonGroundGrey_27: -1512490436
+      DungeonGroundGrey_28: 1584891913
+      DungeonGroundGrey_29: 479552461
+      DungeonGroundGrey_3: -531242520
+      DungeonGroundGrey_30: -1280808244
+      DungeonGroundGrey_31: 1212521469
+      DungeonGroundGrey_32: 802456441
+      DungeonGroundGrey_33: 605335286
+      DungeonGroundGrey_34: -1505770215
+      DungeonGroundGrey_35: 1955291016
+      DungeonGroundGrey_4: -1106234959
+      DungeonGroundGrey_5: -1381718367
+      DungeonGroundGrey_6: -1474479417
+      DungeonGroundGrey_7: 362314117
+      DungeonGroundGrey_8: 1793826381
+      DungeonGroundGrey_9: 156748001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
