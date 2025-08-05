@@ -21,13 +21,13 @@ EditorBuildSettings:
     path: Assets/TopDownEngine/Demos/Loft3D/Loft3D.unity
     guid: d1174410a185495439298917edf07eea
   - enabled: 0
-    path: Assets/TopDownEngine/Demos/Koala2D/KoalaDungeon.unity
+    path: Assets/DUNGEN ASSETS/Koala2DTemplate/KoalaDungeon.unity
     guid: 84badc9c6b6e65a45be4824a7dc1a865
   - enabled: 0
-    path: Assets/TopDownEngine/Demos/Koala2D/KoalaRooms.unity
+    path: Assets/DUNGEN ASSETS/Koala2DTemplate/KoalaRooms.unity
     guid: e04cbbc59c9fc7f4daf2418621d84909
   - enabled: 0
-    path: Assets/TopDownEngine/Demos/Koala2D/KoalaProceduralTilemap.unity
+    path: Assets/DUNGEN ASSETS/Koala2DTemplate/KoalaProceduralTilemap.unity
     guid: 8ac9dc199fdb4d8479ee2fe42a5923fb
   - enabled: 0
     path: Assets/TopDownEngine/Demos/Explodudes/Explodudes.unity
