@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 114366886109299466}
   - component: {fileID: 2578904003073367510}
   m_Layer: 10
-  m_Name: SlimePicker
+  m_Name: AbominationPicker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86fd837a0abc28d4d91c55590bd2c090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Item: {fileID: 11400000, guid: d4a8e1019b434c04086da9117f80985f, type: 2}
+  Item: {fileID: 11400000, guid: e290e5a6725b4d84da5b2ee1f08ddc19, type: 2}
   Quantity: 1
   RemainingQuantity: 1
   PickableIfInventoryIsFull: 0
@@ -401,7 +401,7 @@ SpriteRenderer:
   m_SortingLayerID: 961700441
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1888762701, guid: a55316df9ffb5a14398f70a835a139b7, type: 3}
+  m_Sprite: {fileID: -1643282356, guid: 1bf2f23fd6534bf4da25f84b7b3e9fd4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1207,7 +1207,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: -545451407
         Label: Sound
-        OriginalLabel: 
+        OriginalLabel: Sound
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -1332,7 +1332,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 831860998
         Label: Instantiate Object
-        OriginalLabel: 
+        OriginalLabel: Instantiate Object
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -1423,7 +1423,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 1915792774
         Label: Lens Distortion
-        OriginalLabel: 
+        OriginalLabel: Lens Distortion
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
@@ -1599,7 +1599,7 @@ MonoBehaviour:
         Active: 1
         UniqueID: 1395079797
         Label: Flash
-        OriginalLabel: 
+        OriginalLabel: Flash
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}
