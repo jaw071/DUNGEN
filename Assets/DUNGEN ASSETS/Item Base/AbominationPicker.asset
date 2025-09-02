@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
-  m_Name: Meal
+  m_Name: AbominationPicker
   m_EditorClassIdentifier: 
-  ItemID: Meal
+  ItemID: Abomination
   TargetInventoryName: KoalaMainInventory
   ForceSlotIndex: 0
   TargetIndex: 0
@@ -38,11 +38,12 @@ MonoBehaviour:
     AllowEquipShortcut: 1
     AllowUseShortcut: 1
   Quantity: 1
-  ItemName: Meal
-  ShortDescription: Cooked Burken Meat
-  Description: Could eat this for a pick me up.
-  Icon: {fileID: 1825018664, guid: a55316df9ffb5a14398f70a835a139b7, type: 3}
-  Prefab: {fileID: 8088063407200131554, guid: 7478051aa10e9e242b3d24a698f6424a, type: 3}
+  ItemName: Abomination
+  ShortDescription: Abomination
+  Description: "What is this?\r\nIt doesn't seem to be edible. \r\nMaybe I missed
+    a step or three?"
+  Icon: {fileID: -1643282356, guid: 1bf2f23fd6534bf4da25f84b7b3e9fd4, type: 3}
+  Prefab: {fileID: 1136408400419902, guid: a27348d9d2b9d04479ecb2b819c49a5d, type: 3}
   ForcePrefabDropQuantity: 0
   PrefabDropQuantity: 1
   DropProperties:
